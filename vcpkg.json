@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "print-simulator",
+  "version-semver": "1.2.1",
+  "dependencies": ["spdlog", "nlohmann-json"],
+  "builtin-baseline": "9259a0719d94c402aae2ab7975bc096afdec15df",
+  "overrides": [    { "name": "spdlog", "version": "1.10.0#1" },  { "name": "nlohmann-json", "version": "3.11.2" }]
+}
