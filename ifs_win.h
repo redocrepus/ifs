@@ -36,6 +36,9 @@ namespace ifs {
 		//		std::cout << "command: " << e.command() << std::endl;
 		//		std::cout << "result: " << e.res() << std::endl;
 		// }
+		// 
+		// Thanks to [user5234](https://github.com/user5234) who participated in coding this class.
+		// 
 		// ------------------------------------------------------------------
 		class command : public std::stringstream {
 
