@@ -39,7 +39,7 @@ namespace ifs {
 
     }
 
-    std::string GetEnvVar(std::string varName) { // TODO: move to .cpp
+    std::string GetEnvVar(std::string varName) {
             // Source: https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getenv-s-wgetenv-s?view=msvc-170
 
         size_t requiredSize;
