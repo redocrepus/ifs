@@ -73,5 +73,13 @@ namespace ifs {
 			}
 
 		};
+
+		bool GetCMDColors(short& color);
+
+		bool GetCMDColors(short& BG, short& FG);
+
+
 	}
+
+
 }

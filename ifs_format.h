@@ -21,7 +21,4 @@ namespace ifs {
 
 	fs::path shrt(fs::path p);
 
-	bool GetCMDColors(short& color); // TODO: NOW: EASY: move CMD methods to namespace win
-	
-	bool GetCMDColors(short& BG, short& FG);
 }
